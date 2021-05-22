@@ -7,7 +7,7 @@ page_dom = BeautifulSoup(respons.text, "html.parser")
 
 opinions = page_dom.select("div.js_product-review")
 #print(type(opinions))
-opinion = opinion.pop(0)
+opinion = opinions.pop(0)
 #print(type(opinion))
 
 opinion_id = opinion["data-entry-id"]
