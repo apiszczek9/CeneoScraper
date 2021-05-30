@@ -128,5 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# IDE 
+# IDE
 .vscode
+
+# katalog z opiniami
+opinions/
